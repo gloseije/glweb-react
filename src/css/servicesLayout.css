@@ -1,0 +1,19 @@
+﻿.services-box{
+    width: 250px !important;
+    min-height: 270px !important;
+    padding: 16px;
+    transition: all 0.5s ease-in-out;
+    background-color: #fff !important;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+.services-box img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+}
+.card-img-heght{
+    height: 40px;
+}
+.services-box li{
+    margin-left: -10px;
+}

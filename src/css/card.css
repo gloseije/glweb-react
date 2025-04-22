@@ -1,0 +1,47 @@
+﻿@import url('../App.css');
+.label-post{
+    background: var(--main-color);
+    color: white;
+    text-decoration: none;
+    padding: 1px 10px 1px 10px;
+    font-size: 14px;
+}
+.img-article{
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    width: 100%;
+}
+.link-post{
+    text-decoration: none;
+    color: #1e2125;
+    transition: all 0.3s ease;
+}
+.link-post:is(:hover, :focus){
+    color: #46A2FF;
+}
+.card-body-height{
+    height: 10.5rem;
+}
+.link-to-articles a{
+    text-decoration: none;
+    display: inline-block;
+    transition: all 300ms ease-in-out;
+}
+.link-to-articles a:hover{
+    transform: scale(1.05);
+}
+.history-icon{
+    height: 16px;
+}
+@media screen and (min-width : 320px) {
+    .card-body-height{
+        height: 8rem;
+    }
+}
+
+@media screen and (min-width : 1200px) {
+    .card-body-height{
+        height: 6.5rem;
+    }
+}
+

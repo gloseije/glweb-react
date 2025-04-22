@@ -1,0 +1,46 @@
+﻿footer{
+    background: linear-gradient(135deg, #46A2FF, #004387);
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+footer p{
+    margin-bottom: 5px;
+}
+footer img{
+    width: 24px;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: #fff;
+}.footer-div{
+    display: flex;
+    flex-direction: column;
+}
+#copyright{
+    padding-top: 40px;
+}
+.share{
+  height: 2rem;
+  width: 2rem;
+  border: 0.1rem solid #fff;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-align: center;padding-top: 0.4rem;
+}
+
+.share:hover {
+  background: #fff;
+  color: #46a2ff;
+}
+.scale-1{
+    transition: all 0.3s ease;
+}
+.scale-1:hover{
+    transform: scale(1.2);
+}

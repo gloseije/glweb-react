@@ -1,0 +1,52 @@
+﻿header #logo{
+    height: 2rem;
+}
+
+header .navbar-toggler, .navbar-toggler:hover,  .navbar-toggler:focus{
+    border: none;
+    box-shadow: 0 0 0 !important;
+}
+
+header nav{
+    background: rgba(0, 0, 0, 35%);
+    transition: all 0.5s ease;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    min-height: 50px;
+}
+header .dropdown-menu{
+    background: rgba(0, 0, 0, 0);
+}
+
+header .nav-item .navbar-1{
+    background: inherit;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+header .navbar-1{
+    background: rgba(0, 0, 0, 75%) !important;
+}
+
+header .navbar-collapse{
+    justify-content: flex-end;
+}
+
+header a{
+    color: white !important;
+    font-weight: bold !important;
+}
+header a:hover, header a:focus{
+    color: #46a2ff !important;
+}
+
+@media screen and (min-width: 992px) {
+    header nav{
+        height: 50px;
+    }
+    header .dropdown-menu{
+        background: rgba(0, 0, 0, 35%);
+    }
+    header .nav-item .navbar-1{
+        background-color: rgba(0, 0, 0, 75%) !important;
+    }
+}

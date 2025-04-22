@@ -1,0 +1,26 @@
+﻿#blog #banner{
+    background: url('/img/fond-numerique-futuriste.jpg') center no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 100%;
+}
+.posts{
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    row-gap: 24px;
+    column-gap: 16px;
+}
+.tag-scroll{
+    scrollbar-width: none;
+    transition: all 0.3s ease;
+}
+.tag-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+
+@media screen and (min-width: 576px) {
+    .posts{
+        grid-template-columns: repeat(2, 50%);
+    } 
+}

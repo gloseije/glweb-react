@@ -1,0 +1,36 @@
+﻿@import url('../App.css');
+#behind-banner{
+    background: var(--main-color);
+    height: 150px;
+    color: #fff;
+    overflow-x: auto;
+    text-align: center;
+}
+#behind-banner-caroussel{
+    min-width: 576px;
+}
+#behind-banner div{
+    height: 100%;
+}
+.behind-banner-bloc{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+#behind-banner img{
+    height: 50px;
+}
+/*
+@media screen and (min-width: 576px) {
+    #banner #banner-content .container #content{
+        width: 70%;
+        margin-left: 7%;
+    }
+}*/
+
+/*
+    Services
+*/
+

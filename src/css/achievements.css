@@ -1,0 +1,14 @@
+﻿.achievement-item img{
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+.achievement-item a{
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+/*.achievement-item a:hover{
+    color: #46A2FF;
+}*/
+.background-card{
+    background: linear-gradient(rgba(0,0,0, 0.0), rgba(0,0,0, 0.75));
+}

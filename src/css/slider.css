@@ -1,0 +1,46 @@
+﻿#home #banner{
+    width: 100%;
+}
+#banner-1{
+    background: url("/img/banner-1.jpg") center;
+    
+}
+#banner-2{
+    background: url("/img/banner-2.jpg") center;
+    
+}
+#banner-3{
+    background: url("/img/banner-3.jpg") center;
+}
+#banner-1, #banner-2, #banner-3{
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+.text-banner-position{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.text-banner{
+    height: 100%;
+}
+.text-banner div{
+   height: 100%; 
+}
+.text-banner .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.fond-banner{
+    background-color: rgba(0, 0, 0, 50%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
